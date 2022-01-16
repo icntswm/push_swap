@@ -34,4 +34,4 @@ becomes the first one
 `rrr` - rra and rrb at the same time
 
 
-<iframe src="https://giphy.com/embed/XNQ98xTBVQV5b1Ns5r" width="480" height="372" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/XNQ98xTBVQV5b1Ns5r">via GIPHY</a></p>
+<img src="https://media.giphy.com/media/XNQ98xTBVQV5b1Ns5r/giphy.gif" width="500" height="400" />
