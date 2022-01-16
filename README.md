@@ -61,6 +61,8 @@ Compilation commands:
 `make fclean` - deleting object files (.o) and executable file
 
 `make bonus` - checker compilation
+
+> Starting the main program: `./push_swap *array of numbers*`
 ***
 ***Visually represented example of sorting***
 
