@@ -32,6 +32,36 @@ becomes the first one
 becomes the first one
 
 `rrr` - rra and rrb at the same time
+***
+> ***Bonus***
+> 
+> There is also a special checker that checks if the list has been sorted or not
+> 
+> It takes an array of numbers as input. Then the commands to be applied are entered
+> 
+> The checker returns OK if the array is sorted, and KO if not
+> 
+> Example: `./checker 5 2 4 1 3` 
+> 
+> Next, you will need to enter the commands from the list above, which the checker will apply to the list and return the result
+> 
+> Also, the checker can be run in conjunction with the main program.
+> 
+> For example (in bash): `A='6 9 4 1 5 8 5 0 7'; ./push_swap $A | ./checker $A`
 
+
+Compilation commands:
+
+`make` - compilation
+
+`make re` - recompilation (deleting everything and compiling again)
+
+`make clean` - deleting object files (.o)
+
+`make fclean` - deleting object files (.o) and executable file
+
+`make bonus` - checker compilation
+***
+***Visually represented example of sorting***
 
 <img src="https://media.giphy.com/media/XNQ98xTBVQV5b1Ns5r/giphy.gif" width="500" height="400" />
