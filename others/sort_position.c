@@ -1,15 +1,3 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   sort_position.c                                    :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: fkenned <marvin@42.fr>                     +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/08/07 19:48:17 by fkenned           #+#    #+#             */
-/*   Updated: 2021/08/07 19:48:20 by fkenned          ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
 #include "../push_swap.h"
 
 int	search_min(t_list **stack_a)
@@ -33,7 +21,6 @@ int	search_p(t_list **stack_a)
 	t_list	*p;
 	int		max;
 	int		i;
-	int		save_pos;
 
 	p = *stack_a;
 	max = search_min(&(*stack_a));
@@ -41,10 +28,7 @@ int	search_p(t_list **stack_a)
 	while (p->next != *stack_a)
 	{
 		if (p->value > max && p->pos == 0)
-		{
 			max = p->value;
-			save_pos = i;
-		}
 		i++;
 		p = p->next;
 	}

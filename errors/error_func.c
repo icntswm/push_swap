@@ -1,15 +1,3 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   error_func.c                                       :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: fkenned <marvin@42.fr>                     +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/08/07 19:45:07 by fkenned           #+#    #+#             */
-/*   Updated: 2021/08/07 19:45:08 by fkenned          ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
 #include "../push_swap.h"
 
 int	check_error(int argc, char **argv)
@@ -113,16 +101,12 @@ int	check_dublicat(t_list **stack_a, int num)
 int	error_dublicat(t_list **stack_a)
 {
 	t_list	*p1;
-	t_list	*p2;
 	int		num;
-	int		count;
 
 	p1 = *stack_a;
 	num = p1->value;
 	while (p1->next != *stack_a)
 	{
-		p2 = *stack_a;
-		count = 0;
 		if (check_dublicat(&(*stack_a), num) == 1)
 			return (1);
 		p1 = p1->next;
